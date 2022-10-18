@@ -1,0 +1,13 @@
+.A{
+    flex-direction: row;
+    background-color: blue;
+    box-shadow: 17px 71px 30px 0px rgba(0,0,0,0.75);
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}

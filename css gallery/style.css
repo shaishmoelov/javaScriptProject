@@ -1,0 +1,12 @@
+img {
+
+    width: 50%-40px;
+    margin: 20px;
+}
+
+h1 {
+    border: 10px groove cyan;
+    color: brown;
+    padding: 50px;
+    font-style: italic;
+}

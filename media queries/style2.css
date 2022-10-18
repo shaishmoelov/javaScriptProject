@@ -1,0 +1,33 @@
+@media(min-width: 0px){
+    label{
+        display: block;
+        text-align: center;
+    }
+    div{
+        display: block;
+    }
+}
+
+@media(min-width: 600px){
+    div{
+        display: inline-block;
+    }
+    
+}
+
+@media(min-width: 900px){
+    .name{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .email{
+        text-align: center;
+        display: inline-block;
+    }
+
+    .massege{
+        text-align: left;
+        
+    }
+}

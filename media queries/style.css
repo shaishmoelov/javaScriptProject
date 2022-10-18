@@ -1,0 +1,36 @@
+@media(min-width: 0px){
+    body{
+        background-color: red;
+    }
+
+    [class*="image"]{
+        display: none;
+    }
+}
+
+@media(min-width: 600px){
+    body{
+        background-color: aqua;
+    }
+
+    [class*="firstimage"]{
+        display:block;
+    }
+}
+
+@media(min-width: 768px){
+    body{
+        background-color: green;
+    }
+}
+
+@media(min-width: 992px){
+    body{
+        background-color: brown;
+    }
+    [class*="image"]{
+        display: inline-block;
+        width: 30%;
+        box-sizing: border-box;
+    }
+}
