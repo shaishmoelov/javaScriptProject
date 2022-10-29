@@ -3,9 +3,10 @@ var b2 = document.querySelector('#btn2');
 var panel = document.querySelector('p');
 
 function writeText(text) {
-    return function(text){
-        panel.textContent = text;
+    const k = function(){
+        panel.innerHTML = this.innerHTML;
     }
+    return k;
 }
 b2.addEventListener('click', writeText('Nice To Meet You'));
 b1.addEventListener('click', writeText('Yo'));
