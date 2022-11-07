@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    
+}
+.counter{
+    position: absolute;
+    box-sizing: border-box;
+    left: 75px;
+    height: 50px;
+    width: 50px;
+}
+
+textarea{
+    position: absolute;
+    top: 50px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+}
