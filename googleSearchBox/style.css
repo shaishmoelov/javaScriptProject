@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+input{
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.list{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik Bubbles', cursive;
+}
