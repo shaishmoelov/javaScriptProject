@@ -10,7 +10,7 @@
     
     const pxSize = [-250, -500, 0];
     let index = 0;
-    
+    //ssss
     
     
     function tick(){
