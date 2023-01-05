@@ -1,0 +1,15 @@
+.squres{
+    height: 1200px;
+    width: 1246px;
+    display: flex;
+}
+
+.squres div{
+    height: 12%;
+    width: 12%;
+    background-color: grey;
+    border-color: white;
+    margin: 5px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
