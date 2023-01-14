@@ -1,7 +1,8 @@
-const form  = document.querySelector('form');
+/* The above code is creating a list item and appending it to the list. */
+const form = document.querySelector('form');
 const textArea = document.querySelector('textarea');
 const list = document.querySelector('.list');
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
     event.preventDefault();
     const li = document.createElement('li');
     li.textContent = textArea.value;
